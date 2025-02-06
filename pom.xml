@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>org.fetch</groupId>
 	<artifactId>Fetch-ReceiptProcessor</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>Fetch-ReceiptProcessor</name>
 	<description>Fetch-ReceiptProcessor</description>
 	<url/>
@@ -78,6 +78,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>Fetch-ReceiptProcessor</finalName>
 	</build>
 
 </project>
