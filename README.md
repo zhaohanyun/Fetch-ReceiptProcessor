@@ -26,7 +26,15 @@ This project is a Spring Boot application that processes receipt data to calcula
 
 ## How To Run
 
+**Prerequisites**
+
+- Docker installed on your system. [Get Docker](https://docs.docker.com/get-docker/)
+
 ```bash
+# clone the repo
+git clone https://github.com/zhaohanyun/Fetch-ReceiptProcessor.git
+cd Fetch-ReceiptProcessor
+
 # build the image
 docker build -t fetch-receipt-processor .
 
